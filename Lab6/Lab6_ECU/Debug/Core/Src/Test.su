@@ -1,0 +1,3 @@
+../Core/Src/Test.cpp:10:1:Test::Test()	16	static
+../Core/Src/Test.cpp:16:1:Test::~Test()	16	static
+../Core/Src/Test.cpp:16:1:virtual Test::~Test()	16	static

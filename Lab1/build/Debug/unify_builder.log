@@ -1,0 +1,422 @@
+[2022-11-14 16:50:32]	[done]
+	build successfully !
+
+[2022-11-14 17:34:30]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'effect1':
+./Core/Src/main.c:66:5: error: too many arguments to function 'HAL_GPIO_TogglePin'
+     HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_RESET);
+     ^~~~~~~~~~~~~~~~~~
+In file included from Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:6: note: declared here
+ void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      ^~~~~~~~~~~~~~~~~~
+./Core/Src/main.c:68:5: error: too many arguments to function 'HAL_GPIO_TogglePin'
+     HAL_GPIO_TogglePin(LED3_GPIO_Port, LED3_Pin, GPIO_PIN_SET);
+     ^~~~~~~~~~~~~~~~~~
+In file included from Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:6: note: declared here
+ void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      ^~~~~~~~~~~~~~~~~~
+./Core/Src/main.c:70:5: error: too many arguments to function 'HAL_GPIO_TogglePin'
+     HAL_GPIO_TogglePin(LED4_GPIO_Port, LED4_Pin, GPIO_PIN_RESET);
+     ^~~~~~~~~~~~~~~~~~
+In file included from Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:6: note: declared here
+ void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      ^~~~~~~~~~~~~~~~~~
+
+[2022-11-14 17:34:37]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'effect1':
+./Core/Src/main.c:66:5: error: too many arguments to function 'HAL_GPIO_TogglePin'
+     HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_RESET);
+     ^~~~~~~~~~~~~~~~~~
+In file included from Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:6: note: declared here
+ void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      ^~~~~~~~~~~~~~~~~~
+./Core/Src/main.c:68:5: error: too many arguments to function 'HAL_GPIO_TogglePin'
+     HAL_GPIO_TogglePin(LED3_GPIO_Port, LED3_Pin, GPIO_PIN_SET);
+     ^~~~~~~~~~~~~~~~~~
+In file included from Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:6: note: declared here
+ void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      ^~~~~~~~~~~~~~~~~~
+./Core/Src/main.c:70:5: error: too many arguments to function 'HAL_GPIO_TogglePin'
+     HAL_GPIO_TogglePin(LED4_GPIO_Port, LED4_Pin, GPIO_PIN_RESET);
+     ^~~~~~~~~~~~~~~~~~
+In file included from Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:6: note: declared here
+ void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      ^~~~~~~~~~~~~~~~~~
+
+[2022-11-14 17:34:48]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'effect1':
+./Core/Src/main.c:66:5: error: too many arguments to function 'HAL_GPIO_TogglePin'
+     HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_RESET);
+     ^~~~~~~~~~~~~~~~~~
+In file included from Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:6: note: declared here
+ void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      ^~~~~~~~~~~~~~~~~~
+./Core/Src/main.c:68:5: error: too many arguments to function 'HAL_GPIO_TogglePin'
+     HAL_GPIO_TogglePin(LED3_GPIO_Port, LED3_Pin, GPIO_PIN_SET);
+     ^~~~~~~~~~~~~~~~~~
+In file included from Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:6: note: declared here
+ void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      ^~~~~~~~~~~~~~~~~~
+./Core/Src/main.c:70:5: error: too many arguments to function 'HAL_GPIO_TogglePin'
+     HAL_GPIO_TogglePin(LED4_GPIO_Port, LED4_Pin, GPIO_PIN_RESET);
+     ^~~~~~~~~~~~~~~~~~
+In file included from Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:6: note: declared here
+ void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      ^~~~~~~~~~~~~~~~~~
+
+[2022-11-14 17:35:02]	[done]
+	build successfully !
+
+[2022-11-14 17:35:11]	[done]
+	build successfully !
+
+[2022-11-14 18:04:45]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c:47:29: error: 'effect1' undeclared here (not in a function); did you mean 'effect_ptr'?
+ void (*effect_ptr)(void) = &effect1;
+                             ^~~~~~~
+                             effect_ptr
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:124:17: error: 'GPOIA' undeclared (first use in this function); did you mean 'GPIOA'?
+             if (GPOIA->IDR & 0x0002) {
+                 ^~~~~
+                 GPIOA
+./Core/Src/main.c:124:17: note: each undeclared identifier is reported only once for each function it appears in
+
+[2022-11-14 18:05:28]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:124:17: error: 'GPOIA' undeclared (first use in this function); did you mean 'GPIOA'?
+             if (GPOIA->IDR & 0x0002) {
+                 ^~~~~
+                 GPIOA
+./Core/Src/main.c:124:17: note: each undeclared identifier is reported only once for each function it appears in
+./Core/Src/main.c:85:12: warning: unused variable 'effect_ptr' [-Wunused-variable]
+     void (*effect_ptr)(void) = &effect1;
+            ^~~~~~~~~~
+
+[2022-11-14 18:05:46]	[done]
+	build successfully !
+
+[2022-11-14 18:06:19]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c:47:25: error: expected ';' before 'void'
+ void (*effect_ptr)(void)
+                         ^
+                         ;
+./Core/Src/main.c:51:5:
+     void SystemClock_Config(void);
+     ~~~~                 
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:85:5: error: 'effect_ptr' undeclared (first use in this function); did you mean 'effect2'?
+     effect_ptr = &effect1;
+     ^~~~~~~~~~
+     effect2
+./Core/Src/main.c:85:5: note: each undeclared identifier is reported only once for each function it appears in
+
+[2022-11-14 18:06:26]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c:47:25: error: expected ';' before 'void'
+ void (*effect_ptr)(void)
+                         ^
+                         ;
+./Core/Src/main.c:51:5:
+     void SystemClock_Config(void);
+     ~~~~                 
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:85:6: error: 'effect_ptr' undeclared (first use in this function); did you mean 'effect2'?
+     *effect_ptr = &effect1;
+      ^~~~~~~~~~
+      effect2
+./Core/Src/main.c:85:6: note: each undeclared identifier is reported only once for each function it appears in
+
+[2022-11-14 18:06:38]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:85:17: error: lvalue required as left operand of assignment
+     *effect_ptr = &effect1;
+                 ^
+
+[2022-11-14 18:06:46]	[done]
+	build successfully !
+
+[2022-11-14 18:07:54]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:119:9: warning: statement with no effect [-Wunused-value]
+         (*effect_ptr) // run effect
+         ^
+./Core/Src/main.c:119:22: error: expected ';' before 'if'
+         (*effect_ptr) // run effect
+                      ^
+                      ;
+./Core/Src/main.c:121:13:
+             if (GPIOA->IDR != 0)
+             ~~
+
+[2022-11-14 18:08:02]	[done]
+	build successfully !
+
+[2022-11-14 18:08:13]	[done]
+	build successfully !
+
+[2022-11-14 18:14:56]	[done]
+	build successfully !
+
+[2022-11-14 21:33:29]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\stm32f4xx_it.c", exit code: 1
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/freertos.c:21:10: fatal error: FreeRTOS.h: No such file or directory
+ #include "FreeRTOS.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+./Core/Src/main.c:21:10: fatal error: cmsis_os.h: No such file or directory
+ #include "cmsis_os.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+./Core/Src/stm32f4xx_it.c:23:10: fatal error: FreeRTOS.h: No such file or directory
+ #include "FreeRTOS.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+
+[2022-11-14 21:33:51]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c", exit code: 1
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+C:\Users\ADMIN\AppData\Local\Temp\cccs3SY8.s: Assembler messages:
+C:\Users\ADMIN\AppData\Local\Temp\cccs3SY8.s:525: Error: selected processor does not support `vstmdbeq r0!,{s16-s31}' in Thumb mode
+C:\Users\ADMIN\AppData\Local\Temp\cccs3SY8.s:527: Error: instruction not allowed in IT block -- `stmdb r0!,{r4-r11,r14}'
+C:\Users\ADMIN\AppData\Local\Temp\cccs3SY8.s:547: Error: selected processor does not support `vldmiaeq r0!,{s16-s31}' in Thumb mode
+C:\Users\ADMIN\AppData\Local\Temp\cccs3SY8.s:549: Error: instruction not allowed in IT block -- `msr psp,r0'
+
+[2022-11-14 21:34:31]	[done]
+	build successfully !
+
+[2022-11-14 21:36:23]	[done]
+	build successfully !
+
+[2022-11-14 21:50:53]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'StartDefaultTask':
+./Core/Src/main.c:369:28: error: request for member 'wait_any' in something not a structure or union
+         if (myEvent01Handle.wait_any(swapped, 50) == swapped) {
+                            ^
+./Core/Src/main.c: In function 'StartTask02':
+./Core/Src/main.c:407:32: error: request for member 'set' in something not a structure or union
+                 myEvent01Handle.set(swapped);
+                                ^
+
+[2022-11-14 21:53:40]	[done]
+	build successfully !
+
+[2022-11-17 13:24:23]	[done]
+	build successfully !
+
+[2022-11-17 13:28:56]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c:71:13: error: 'new' undeclared here (not in a function)
+ int *time = new int(500);
+             ^~~
+./Core/Src/main.c:71:17: error: expected ',' or ';' before 'int'
+ int *time = new int(500);
+                 ^~~
+./Core/Src/main.c: In function 'effect1':
+./Core/Src/main.c:94:15: warning: passing argument 1 of 'HAL_Delay' makes integer from pointer without a cast [-Wint-conversion]
+     HAL_Delay(time);
+               ^~~~
+In file included from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:233:25: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'int *'
+ void HAL_Delay(uint32_t Delay);
+                ~~~~~~~~~^~~~~
+./Core/Src/main.c:96:15: warning: passing argument 1 of 'HAL_Delay' makes integer from pointer without a cast [-Wint-conversion]
+     HAL_Delay(time);
+               ^~~~
+In file included from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:233:25: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'int *'
+ void HAL_Delay(uint32_t Delay);
+                ~~~~~~~~~^~~~~
+./Core/Src/main.c:98:15: warning: passing argument 1 of 'HAL_Delay' makes integer from pointer without a cast [-Wint-conversion]
+     HAL_Delay(time);
+               ^~~~
+In file included from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:233:25: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'int *'
+ void HAL_Delay(uint32_t Delay);
+                ~~~~~~~~~^~~~~
+./Core/Src/main.c:100:15: warning: passing argument 1 of 'HAL_Delay' makes integer from pointer without a cast [-Wint-conversion]
+     HAL_Delay(time);
+               ^~~~
+In file included from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:233:25: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'int *'
+ void HAL_Delay(uint32_t Delay);
+                ~~~~~~~~~^~~~~
+./Core/Src/main.c: In function 'effect2':
+./Core/Src/main.c:105:15: warning: passing argument 1 of 'HAL_Delay' makes integer from pointer without a cast [-Wint-conversion]
+     HAL_Delay(time);
+               ^~~~
+In file included from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:233:25: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'int *'
+ void HAL_Delay(uint32_t Delay);
+                ~~~~~~~~~^~~~~
+./Core/Src/main.c:108:15: warning: passing argument 1 of 'HAL_Delay' makes integer from pointer without a cast [-Wint-conversion]
+     HAL_Delay(time);
+               ^~~~
+In file included from Core/Inc/main.h:30,
+                 from ./Core/Src/main.c:20:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:233:25: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'int *'
+ void HAL_Delay(uint32_t Delay);
+                ~~~~~~~~~^~~~~
+
+[2022-11-17 13:29:30]	[done]
+	build successfully !
+
+[2022-11-17 13:37:32]	[done]
+	build successfully !
+
+[2022-11-17 13:45:39]	[done]
+	build successfully !
+
+[2022-11-17 13:47:32]	[done]
+	build successfully !
+
+[2022-11-17 13:56:16]	[done]
+	build successfully !
+
+[2022-11-17 14:13:37]	[done]
+	build successfully !
+
+[2022-11-17 14:13:49]	[done]
+	build successfully !
+
+[2022-11-17 14:14:00]	[done]
+	build successfully !
+
+[2022-11-17 14:14:15]	[done]
+	build successfully !
+
+[2022-11-17 14:14:34]	[done]
+	build successfully !
+
+[2022-11-17 14:18:54]	[done]
+	build successfully !
+
+[2022-11-17 14:38:24]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'StartTask02':
+./Core/Src/main.c:390:30: error: 'KEY0_Pin_Port' undeclared (first use in this function); did you mean 'KEY_Pin_Port'?
+         if (HAL_GPIO_ReadPin(KEY0_Pin_Port, KEY0_Pin & KEY1_Pin) == GPIO_PIN_RESET) {
+                              ^~~~~~~~~~~~~
+                              KEY_Pin_Port
+./Core/Src/main.c:390:30: note: each undeclared identifier is reported only once for each function it appears in
+
+[2022-11-17 14:38:41]	[done]
+	build successfully !
+
+[2022-11-17 14:41:27]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'StartTask02':
+./Core/Src/main.c:410:28: error: expected ';' before '}' token
+                 time += 100
+                            ^
+                            ;
+             }
+             ~
+
+[2022-11-17 14:41:33]	[done]
+	build successfully !
+
+[2022-11-17 14:53:54]	[done]
+	build successfully !
+
+[2022-11-17 14:54:46]	[done]
+	build successfully !
+
+[2022-11-17 14:56:21]	[done]
+	build successfully !
+
+[2022-11-17 15:00:17]	[done]
+	build successfully !
+
+[2022-11-17 15:02:40]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab1\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function '__io_putchar':
+./Core/Src/main.c:370:24: error: 'huart3' undeclared (first use in this function); did you mean 'huart4'?
+     HAL_UART_Transmit(&huart3, (uint8_t *)&ch, sizeof(ch) - 1, 100);
+                        ^~~~~~
+                        huart4
+./Core/Src/main.c:370:24: note: each undeclared identifier is reported only once for each function it appears in
+
+[2022-11-17 15:02:45]	[done]
+	build successfully !
+
+[2022-11-17 15:04:22]	[done]
+	build successfully !
+
+[2022-11-17 15:09:46]	[done]
+	build successfully !
+
+[2022-11-17 15:13:47]	[done]
+	build successfully !
+
+[2022-11-17 15:16:29]	[done]
+	build successfully !
+

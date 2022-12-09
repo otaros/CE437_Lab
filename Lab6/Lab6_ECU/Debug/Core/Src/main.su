@@ -1,0 +1,12 @@
+../Core/Src/main.c:74:9:GenerateRandomNumber	24	static
+../Core/Src/main.c:80:9:CalculateKey	24	static
+../Core/Src/main.c:89:6:HAL_CAN_RxFifo0MsgPendingCallback	16	static
+../Core/Src/main.c:92:13:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:102:5:main	8	static
+../Core/Src/main.c:150:6:SystemClock_Config	88	static
+../Core/Src/main.c:202:13:MX_CAN1_Init	8	static
+../Core/Src/main.c:238:13:MX_RNG_Init	8	static
+../Core/Src/main.c:263:13:MX_TIM2_Init	40	static
+../Core/Src/main.c:309:13:MX_USART3_UART_Init	8	static
+../Core/Src/main.c:343:13:MX_GPIO_Init	56	static
+../Core/Src/main.c:398:6:Error_Handler	4	static,ignoring_inline_asm

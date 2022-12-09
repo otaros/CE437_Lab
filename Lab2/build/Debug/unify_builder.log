@@ -1,0 +1,67 @@
+[2022-11-15 09:53:47]	[done]
+	build successfully !
+
+[2022-11-15 10:57:44]	[done]
+	build successfully !
+
+[2022-11-17 13:29:47]	[done]
+	build successfully !
+
+[2022-11-17 13:31:38]	[done]
+	build successfully !
+
+[2022-11-17 13:33:51]	[done]
+	build successfully !
+
+[2022-11-17 13:34:04]	[done]
+	build successfully !
+
+[2022-11-17 13:35:22]	[done]
+	build successfully !
+
+[2022-11-17 15:34:36]	[done]
+	build successfully !
+
+[2022-11-17 15:46:06]	compilation failed at : "c:\Users\ADMIN\workspace\Stm32Cube_workspace\CE437_workspace\Lab2\Core\Src\main.c", exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'readUART':
+./Core/Src/main.c:344:47: error: 'ch' undeclared (first use in this function); did you mean 'char'?
+         HAL_UART_Receive(&huart4, (uint8_t *)&ch, sizeof(ch), HAL_MAX_DELAY);
+                                               ^~
+                                               char
+./Core/Src/main.c:344:47: note: each undeclared identifier is reported only once for each function it appears in
+
+[2022-11-17 15:46:20]	[done]
+	build successfully !
+
+[2022-11-17 15:46:29]	[done]
+	build successfully !
+
+[2022-11-17 15:46:44]	[done]
+	build successfully !
+
+[2022-11-17 15:49:21]	[done]
+	build successfully !
+
+[2022-11-20 19:50:10]	[done]
+	build successfully !
+
+[2022-11-20 20:05:04]	[done]
+	build successfully !
+
+[2022-11-20 20:05:48]	[done]
+	build successfully !
+
+[2022-11-20 20:30:07]	[done]
+	build successfully !
+
+[2022-11-20 20:30:25]	[done]
+	build successfully !
+
+[2022-11-20 20:30:39]	[done]
+	build successfully !
+
+[2022-11-22 10:45:39]	[done]
+	build successfully !
+
